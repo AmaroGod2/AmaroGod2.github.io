@@ -11,8 +11,8 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #fdfdfd; /* Dark background for the header */
-    color: #000000; /* White text color in the header */
+    background-color: #000000; /* Dark background for the header */
+    color: #ffffff; /* White text color in the header */
 }
 
 header h1 {
