@@ -1,43 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Light gray background for the whole page */
+    color: #ffffff; /* Dark gray text color for readability */
+}
+
 /* Header styling */
 header {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white; /* Text color in the header */
+    background-color: #fdfdfd; /* Dark background for the header */
+    color: #000000; /* White text color in the header */
 }
 
-/* Navigation buttons within the header */
+header h1 {
+    margin: 0; /* Remove default margin for the heading */
+}
+
+/* Navigation button styling */
+nav {
+    margin-top: 20px;
+}
+
 nav button {
-    background-color: #007bff;
+    background-color: #007bff; /* Blue background for buttons */
     border: none;
-    color: white;
+    color: white; /* White text color on buttons */
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 5px; /* Rounded corners */
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
 }
 
 nav button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Section styling */
 section {
     padding: 20px;
     margin: 20px auto;
-    max-width: 600px;
-    background-color: white; /* Background color for the sections */
-    color: #333; /* Text color for the sections */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit width to make content readable */
+    background-color: white; /* White background for sections */
+    color: #333; /* Dark text color in sections */
+    border-radius: 8px; /* Rounded corners for sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333; /* Light gray background for the whole page */
+/* Link styling */
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
 }
 
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
