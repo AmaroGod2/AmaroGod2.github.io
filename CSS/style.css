@@ -1,3 +1,13 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
+    color: #ffffff;
+}
+
+/* Header styling */
 header {
     text-align: center;
     padding: 20px;
@@ -5,6 +15,7 @@ header {
     color: white;
 }
 
+/* Navigation buttons */
 nav {
     margin-top: 20px;
 }
@@ -23,4 +34,14 @@ nav button {
 
 nav button:hover {
     background-color: #0056b3;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
