@@ -1,6 +1,6 @@
 // Datos de productos
 const productsData = [
-    { id: 1, title: 'Buso Talla 14 ejemplo', price: 4000, img: 'https://via.placeholder.com/240x140?text=Laptop' },
+    { id: 1, title: 'joyas prueba', price: 4000, img: 'https://via.placeholder.com/240x140?text=Laptop' },
     { id: 2, title: 'Ropa Talla', price: 199, img: 'https://via.placeholder.com/240x140?text=Monitor' },
     { id: 3, title: 'Ropa Talla', price: 89, img: 'https://via.placeholder.com/240x140?text=Audífonos' },
     { id: 4, title: 'Ropa Talla', price: 499, img: 'https://via.placeholder.com/240x140?text=Cámara' },
