@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="brand">
+            <h1>Divina Tentación Boutique</h1>
+            </div>
+        <input id="search" type="text" placeholder="Buscar productos..." class="search">
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Contactos</h3>
+            <ul>
+                <li>Instagram <a href="https://www.instagram.com/divina_tentacion_boutique/?hl=es-la" target="_blank">aqui</a>
+                <li>Numero de contacto:</li>
+                <p>+56 9 6754 7484<p>
+                    <h3>Categorias</h3>
+               <li><a href="">Vestuario Mujer</a></li>
+                <li><a href=""> Joyas</a></li>
+                <li><a href=""> Accesorios</a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <section class="hero">
+                <h2>Compra tu próxima ropa</h2>
+                <button id="cta">Comprar ahora</button>
+            </section>
+
+            <section class="items">
+                <h2>Productos</h2>
+                <div id="products" class="grid">
+                    </div>
+            </section>
+        </main>
+    </div>
+
+    <template id="card-template">
+        <div class="card">
+            <img class="thumb" src="" alt="">
+            <h3 class="title"></h3>
+            <p class="price"></p>
+            </div>
+    </template>
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
